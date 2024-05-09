@@ -1,0 +1,26 @@
+@import "./index.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: #FD831C;
+}
+.titulo{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: white;
+}
+.botao{
+  width:95%;
+  height: 8vh;
+  margin-top: 2vh;
+  background-color: white;
+}
+.texto{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
