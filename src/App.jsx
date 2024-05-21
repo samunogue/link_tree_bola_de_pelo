@@ -18,27 +18,27 @@ function App() {
           <Flex vertical={true} align={"center"}>
             <img src={icone} height="100" />
             <h2 className={'titulo'}>Bola de Pelo Sapiranga</h2>
-            <Button className='botao'>
+            <Button className='botao' onClick={() =>{window.location.href = `https://wa.me/8597833091?text=Olá%20boa%20tarde,%20queria%20saber%20mais%20informações`; }}>
               <Flex vertical={false} align={"center"} justify={"flex-start"} gap={20}>
-              <FontAwesomeIcon icon={faHouseChimneyMedical} size={"2x"} />
+              <FontAwesomeIcon icon={faHouseChimneyMedical} size={"xl"} />
               <p className="texto">Faça uma Doação</p>
               </Flex>
             </Button>
-            <Button  className='botao'>
+            <Button  className='botao'  onClick={() =>{window.location.href = `https://landing-page-bola-de-pelo-cscg926vx-samunogues-projects.vercel.app`; }}>
               <Flex vertical={false} align={"center"} justify={"flex-start"} gap={20}>
-              <FontAwesomeIcon icon={faGlobe} size={"2x"} />
+              <FontAwesomeIcon icon={faGlobe} size={"xl"} />
               <p className="texto">Nosso Site</p>
               </Flex>
             </Button>
-            <Button className='botao'>
+            <Button className='botao' onClick={() =>{window.location.href = `https://wa.me/8597833091?text=Olá%20boa%20tarde,%20queria%20saber%20mais%20informações`; }} >
               <Flex vertical={false} align={"center"} justify={"flex-start"} gap={20}>
-              <FontAwesomeIcon icon={faWhatsapp} size={"2x"} color='#00AB3A' />
+              <FontAwesomeIcon icon={faWhatsapp} size={"xl"} color='#00AB3A' />
               <p className="texto">Whatsapp</p>
               </Flex>
             </Button>
-            <Button className='botao'>
+            <Button className='botao' onClick={() =>{window.location.href = `https://wa.me/8597833091?text=Olá%20boa%20tarde,%20queria%20saber%20mais%20informações`; }}>
               <Flex vertical={false} align={"center"} justify={"flex-start"} gap={20}>
-              <FontAwesomeIcon icon={faHeart} size={"2x"} color='red' />
+              <FontAwesomeIcon icon={faHeart} size={"xl"} color='red' />
               <p className="texto">Seja um Doador</p>
               </Flex>
             </Button>
